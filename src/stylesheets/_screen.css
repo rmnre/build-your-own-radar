@@ -33513,7 +33513,64 @@ ul.icons-ul > li .icon-li {
   font-weight: 600;
   src: local('Noto Sans CJK SC ExtraBold'),
     url(https://static.thoughtworks.com/fonts/NotoSansCJKsc-900.woff2) format('woff2');
-} /*!
+} 
+@font-face {
+  font-family: "Euclid Circular B";
+  src: local('Euclid Circular B Regular'),
+    url('fonts/Euclid-Circular-B-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: local('Euclid Circular B Italic'),
+    url('fonts/Euclid-Circular-B-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: local('Euclid Circular B Bold'),
+    url('fonts/Euclid-Circular-B-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: local('Euclid Circular B Bold Italic'),
+    url('fonts/Euclid-Circular-B-Bold-Italic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: local('Euclid Circular B Light'),
+    url('fonts/Euclid-Circular-B-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: local('Euclid Circular B Light Italic'),
+    url('fonts/Euclid-Circular-B-Light-Italic.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: local('Euclid Circular B SemiBold'),
+    url('fonts/Euclid-Circular-B-SemiBold.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Circular B";
+  src: local('Euclid Circular B SemiBold Italic'),
+    url('fonts/Euclid-Circular-B-SemiBold-Italic.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: italic;
+}
+/*!
 Chosen, a Select Box Enhancer for jQuery and Prototype
 by Patrick Filler for Harvest, http://getharvest.com
 

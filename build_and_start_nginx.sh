@@ -13,6 +13,8 @@ cp -r /src/build-your-own-radar/dist/* ./
 mkdir -p files
 cp /src/build-your-own-radar/spec/end_to_end_tests/resources/localfiles/* ./files/
 cp /src/build-your-own-radar/default.template /etc/nginx/conf.d/default.conf
+mkdir -p fonts
+cp /src/build-your-own-radar/src/fonts/* ./fonts/
 
 echo "Starting nginx server..."
 exec nginx -g 'daemon off;'
