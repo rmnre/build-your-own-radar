@@ -4,22 +4,22 @@
 @if $UIRefresh2022 {
   .hero-banner {
     height: $tabletBannerHeight;
-    background-color: $amethyst;
-    background-image: url('/images/banner-image-mobile.jpg');
+    background-color: $gematik-blue-primary;
+    // background-image: url('/images/banner-image-mobile.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    color: $white;
+    color: $gematik-green-accent;
     display: flex;
     align-items: center;
     margin: 0 !important;
 
     @include media-query-large {
-      background-image: url('/images/banner-image-mobile.jpg');
+      // background-image: url('/images/banner-image-mobile.jpg');
     }
 
     @include media-query-xlarge {
-      background-image: url('/images/banner-image-desktop.jpg');
+      // background-image: url('/images/banner-image-desktop.jpg');
       height: $bannerHeight;
       background-size: cover;
     }
@@ -38,10 +38,12 @@
 
     &__title-text {
       width: fit-content;
+      font-family: "Euclid Circular B", Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bolder;
       text-align: left;
       text-transform: none;
       letter-spacing: 0;
-      cursor: pointer;
+      // cursor: pointer;
     }
 
     &__subtitle-text {
