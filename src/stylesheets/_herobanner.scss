@@ -9,7 +9,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    color: $gematik-green-accent;
+    color: $white;
     display: flex;
     align-items: center;
     margin: 0 !important;
@@ -39,7 +39,8 @@
     &__title-text {
       width: fit-content;
       font-family: "Euclid Circular B", Verdana, Geneva, Tahoma, sans-serif;
-      font-weight: bolder;
+      color: $gematik-green-accent;
+      font-weight: normal;
       text-align: left;
       text-transform: none;
       letter-spacing: 0;
